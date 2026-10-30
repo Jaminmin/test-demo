@@ -67,42 +67,42 @@ export default function App() {
   // คลังภาพประวัติศาสตร์ (Historic Image Gallery)
   const archivePhotos = [
     {
-      src: "/images/thaworn-phornprapha.jpg",
+      src: "./images/thaworn-phornprapha.jpg",
       title: "ดร.ถาวร พรประภา (พ.ศ. 2459–2544)",
       year: "พ.ศ. 2495",
       caption: "ผู้ก่อตั้งกลุ่มบริษัท สยามกลการ จำกัด ผู้นำทางวิสัยทัศน์ที่นำเข้ารถยนต์นิสสัน–ดัทสัน และผลักดันการสร้างโรงงานประกอบรถยนต์และโรงงานชิ้นส่วนรายแรกๆ ของไทย",
       source: "เอกสารประวัติศาสตร์สยามกลการ / จดหมายเหตุตระกูลพรประภา",
     },
     {
-      src: "/images/siam-motors-hq-building.jpg",
+      src: "./images/siam-motors-hq-building.jpg",
       title: "อาคารสำนักงานใหญ่ สยามกลการ ปทุมวัน",
       year: "พ.ศ. 2500 ต้นๆ",
       caption: "อาคารสำนักงานใหญ่ บริษัท สยามกลการ จำกัด ถนนพระราม 1 ปทุมวัน ด้านหน้ามีรถยนต์ Datsun จอดเรียงราย และด้านบนประดับตราตั้งพระราชทานครุฑอันทรงเกียรติ",
       source: "จดหมายเหตุสยามกลการ ถนนพระราม 1 (ตราตั้งพระราชทานครุฑ 19 มิ.ย. 2515)",
     },
     {
-      src: "/images/sukhumvit-assembly-factory.jpg",
+      src: "./images/sukhumvit-assembly-factory.jpg",
       title: "ซุ้มประตูโรงงานประกอบรถยนต์ สยามกลการและนิสสัน",
       year: "พ.ศ. 2505",
       caption: "โรงงานประกอบรถยนต์แห่งแรก ซอยศรีจันทร์ ถนนสุขุมวิท ในภาพคือรถยนต์ Datsun Bluebird รุ่นแรกที่ประกอบเสร็จสมบูรณ์กำลังวิ่งลอดซุ้มประตูโรงงานออกสู่ท้องถนน",
       source: "จดหมายเหตุโรงงานประกอบรถยนต์ สยามกลการและนิสสัน ซอยศรีจันทร์ สุขุมวิท 67",
     },
     {
-      src: "/images/datsun-bluebird.jpg",
+      src: "./images/datsun-bluebird.jpg",
       title: "Datsun Bluebird (P312 Series)",
       year: "พ.ศ. 2505",
       caption: "รถเก๋งยอดนิยมในตำนานของคนไทยยุค 2500 รถยนต์นั่งรุ่นแรกๆ ที่ประกอบขึ้น ณ โรงงานสยามกลการและนิสสัน ซอยศรีจันทร์ สุขุมวิท โดดเด่นด้วยความทนทานและประหยัดน้ำมัน",
       source: "Nissan Heritage Collection / คลังภาพประวัติศาสตร์ยานยนต์คลาสสิก",
     },
     {
-      src: "/images/datsun-620.jpg",
+      src: "./images/datsun-620.jpg",
       title: "Datsun 620 หรือ 'ดัทสัน ช้างเหยียบ'",
       year: "พ.ศ. 2515",
       caption: "รถกระบะขวัญใจคนไทยในตำนาน โด่งดังด้วยความอึด ถึก ทนทาน ขับเคลื่อนเศรษฐกิจการขนส่ง พ่อค้าแม่ค้า และเกษตรกรไทยในยุคบุกเบิกอุตสาหกรรม",
       source: "Nissan Motor Archives / บันทึกประวัติศาสตร์ยานยนต์เพื่อการพาณิชย์",
     },
     {
-      src: "/images/automotive-parts.jpg",
+      src: "./images/automotive-parts.jpg",
       title: "สายการผลิตชิ้นส่วนวิศวกรรมยานยนต์ขั้นสูง",
       year: "พ.ศ. 2512 เป็นต้นมา",
       caption: "ผลจากนโยบายกำหนดสัดส่วนชิ้นส่วนในประเทศ (Local Content 25%) นำไปสู่การร่วมทุนตั้งโรงงานผลิตแบตเตอรี่ โช้คอัพ กระจก แหนบ และชิ้นส่วนเครื่องยนต์",
@@ -501,7 +501,7 @@ export default function App() {
               <div className="rounded-lg bg-[#1C1B19] border border-[#38352F] overflow-hidden p-3 shadow-2xl relative">
                 <div className="aspect-[4/5] rounded overflow-hidden relative">
                   <img
-                    src="/images/thaworn-phornprapha.jpg"
+                    src="./images/thaworn-phornprapha.jpg"
                     alt="ดร.ถาวร พรประภา"
                     className="w-full h-full object-cover object-top"
                   />
@@ -593,7 +593,7 @@ export default function App() {
         <div className="grid md:grid-cols-12 gap-8 items-center mb-14">
           <div className="md:col-span-6 rounded-lg overflow-hidden border border-[#3A362E] bg-[#161514] p-3 shadow-xl">
             <img
-              src="/images/sukhumvit-assembly-factory.jpg"
+              src="./images/sukhumvit-assembly-factory.jpg"
               alt="โรงงานประกอบรถยนต์สยามกลการและนิสสัน ซอยศรีจันทร์"
               className="w-full rounded h-auto object-cover"
             />
@@ -640,7 +640,7 @@ export default function App() {
             <div className="border border-[#262421] rounded-lg bg-[#141312] overflow-hidden flex flex-col justify-between">
               <div className="aspect-[16/10] w-full overflow-hidden bg-[#1E1D1B] flex items-center justify-center p-3">
                 <img
-                  src="/images/datsun-bluebird.jpg"
+                  src="./images/datsun-bluebird.jpg"
                   alt="Datsun Bluebird"
                   className="w-full h-full object-contain hover:scale-105 transition duration-300"
                 />
@@ -658,7 +658,7 @@ export default function App() {
             <div className="border border-[#262421] rounded-lg bg-[#141312] overflow-hidden flex flex-col justify-between">
               <div className="aspect-[16/10] w-full overflow-hidden bg-[#1E1D1B] flex items-center justify-center p-3">
                 <img
-                  src="/images/datsun-620.jpg"
+                  src="./images/datsun-620.jpg"
                   alt="Datsun 620"
                   className="w-full h-full object-contain hover:scale-105 transition duration-300"
                 />
